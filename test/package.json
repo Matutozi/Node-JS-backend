@@ -1,0 +1,19 @@
+{
+  "name": "test_page",
+  "version": "1.0.0",
+  "description": "Testing my knowledge of nodejs and mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ghebee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
