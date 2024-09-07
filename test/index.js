@@ -18,3 +18,8 @@ mongoose.connect(MONGOURL).then( () =>
     
 })
 .catch((error)=> console.log(error));
+
+app.get("/", (req, res) => {
+    res.send("I am starting to enjoy Node Js")
+
+});
